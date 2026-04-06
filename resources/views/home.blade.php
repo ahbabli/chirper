@@ -9,8 +9,9 @@
                 <div class="card-body">
                     <div>
                         <h1 class="text-3xl font-bold">Welcome to Chirper!</h1>
-                        <p class="mt-4 text-base-content/60">This is your brand new Laravel application. Time to make it
+                        <padd class="mt-4 text-base-content/60">This is your brand new Laravel application. Time to make it
                             sing (or chirp)!</p>
+                            <p> we are live on the internt</p>
                     </div>
                 </div>
             </div>
