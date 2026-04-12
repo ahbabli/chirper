@@ -11,7 +11,19 @@ class chirpController extends Controller
      */
     public function index()
     {
-        //
+        $chirps = [
+            [
+                'author' => 'Ahmed Albabli',
+                'message' => 'Just deployed my fisrt Laravel app!',
+                'time' => '2 minutes ago',
+            ],
+            [
+                'author' => 'Abo babel',
+                'message' => 'it was so fun building with Laravel.',
+                'time' => '1 hour ago',
+            ],
+        ];
+        return view('home', ['chirps'=> $chirps]);
     }
 
     /**
